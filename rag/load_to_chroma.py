@@ -1,15 +1,14 @@
-import os
 from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
+import os
 
 
-def Load_VD():
+def Load_VD(file):
     # Load documents
-    loader = PyPDFLoader("./data/RAG.pdf")
+    loader = PyPDFLoader(file)
     documents = loader.load()
     # Split the documents into chunks
     text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=0)
@@ -22,6 +21,3 @@ def Load_VD():
     # Expose this index in a retriever interface
     retriever = db.as_retriever(search_kwargs={"k": 3})
     return retriever
-
-
-Load_VD()
