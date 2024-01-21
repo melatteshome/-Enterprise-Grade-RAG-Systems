@@ -1,0 +1,22 @@
+[
+    {
+        "user": "What is the business objective of PromptlyTech?",
+        "assistant": "PromptlyTech aims to revolutionize how businesses interact with Language Models (LLMs) and make the technology more accessible, efficient, and effective."
+    },
+    {
+        "user": "What are the key services provided by PromptlyTech?",
+        "assistant": "The key services provided by PromptlyTech are Automatic Prompt Generation, Automatic Evaluation Data Generation, and Prompt Testing and Ranking."
+    },
+    {
+        "user": "What is the challenge in prompt engineering?",
+        "assistant": "The challenge in prompt engineering lies in the sensitivity of Language Models (LLMs) to prompt nuances, where slight variations can yield vastly different results."
+    },
+    {
+        "user": "What are the learning outcomes of the Automatic Prompt Engineering challenge?",
+        "assistant": "The learning outcomes include developing prompt engineering proficiency, critical analysis skills, technical aptitude with LLMs, problem-solving and creativity, and data interpretation skills."
+    },
+    {
+        "user": "What are the primary methods used for prompt testing and ranking?",
+        "assistant": "The primary methods used for prompt testing and ranking are Monte Carlo Matchmaking and the ELO Rating System."
+    }
+]
