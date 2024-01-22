@@ -1,1 +1,3 @@
 # -Enterprise-Grade-RAG-Systems
+what is RAG
+RAG basically means giving the LLM more additional information or data (context) that allows it to through the data before it generates the output. The data we give to the llm can be open like the internet or it can be closed like giving it a company-based data such as pdf, documents and such. And if more new information about the topic is discovered again, we’ll just Augment the newly discovered data onto our data-store that we gave to the LLM. With this not only do we give solution to the hallucination of the LLM we also have given the LLM to say “I don’t know” when it's asked about the information that it has zero knowledge about.
